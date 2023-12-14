@@ -25,9 +25,9 @@ jobs:
     #- name: Build with Maven
     #  run: mvn package --file pom.xml -Drat.numUnapprovedLicenses=200 #removes unapproved license limit
       
-    - name: print target directory
-      run: | 
-        ls ./target/
+    #- name: print target directory
+    #  run: | 
+    #    ls ./target/
         
     - name: Nexus Repo Pull
       run: wget --user admin --password admin1234 https://repo.ajoanes.ngrok.io/repository/maven-central/pkg:maven/org.apache.commons/commons-text@1.11.0
