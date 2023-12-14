@@ -30,7 +30,7 @@ jobs:
     #    ls ./target/
         
     - name: Nexus Repo Pull
-      run: wget --user admin --password admin1234 https://repo.ajoanes.ngrok.io/repository/maven-central/pkg:maven/org.apache.commons/commons-text@1.11.0
+      run: wget --user admin --password admin1234 https://repo.ajoanes.ngrok.io/repository/maven-proxy/pkg:maven/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
         | ls
       #with:
         #serverUrl: https://repo.ajoanes.ngrok.io
