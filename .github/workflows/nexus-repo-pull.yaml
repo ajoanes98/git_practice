@@ -22,8 +22,8 @@ jobs:
         #plugin_repositories: '[{ "id": "some-plugin-repository", "url": "http://some.plugin.repository.url" }]'
         servers: '[{ "id": "nexus-repository", "username": "admin", "password": "admin1234" }]'
         
-    - name: Build with Maven
-      run: mvn package --file pom.xml -Drat.numUnapprovedLicenses=200 #removes unapproved license limit
+    #- name: Build with Maven
+    #  run: mvn package --file pom.xml -Drat.numUnapprovedLicenses=200 #removes unapproved license limit
       
     - name: print target directory
       run: | 
