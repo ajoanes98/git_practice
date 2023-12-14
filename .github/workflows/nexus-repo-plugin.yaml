@@ -25,4 +25,4 @@ jobs:
         repository: maven-proxy
         coordinates: groupId=org.apache.commons artifactId=commons-lang3 version=3.14.0
         assets: extension=jar
-        filename: pkg:maven/org.apache.commons/commons-lang3@3.14.0
+        filename: ./target/commons-lang3@3.14.0
