@@ -15,6 +15,6 @@ jobs:
         serverUrl: https://iq.ajoanes.ngrok.io
         username: admin
         password: iqAj610298!
-        applicationId: dvuln2-swift-github
+        applicationId: chatsecure-swift-github
         stage: source
-        target: swift/dvuln2
+        target: ajoanes98/ChatSecure-iOS
