@@ -1,1 +1,20 @@
+name: Conan CI with Nexus IQ
 
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Nexus IQ Policy Evaluation
+      uses: sonatype-nexus-community/iq-github-action@master
+      with:
+        serverUrl: https://repo.ajoanes.ngrok.io
+        username: ${{ secrets.IQ_USER }} 
+        password: ${{ secrets.IQ_PASSWORD }} 
+        applicationId: sample-c++
+        stage: Build
+        target: /Users/anthonyjoanes/Downloads/conanfile.txt
