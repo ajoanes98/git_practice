@@ -17,4 +17,4 @@ jobs:
         password: iqAj610298!
         applicationId: conan-github
         stage: Build
-        target: /Users/anthonyjoanes/Downloads/conanfile.txt
+        target: /Users/anthonyjoanes/Conan/conan-git-test
