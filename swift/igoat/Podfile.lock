@@ -4,18 +4,41 @@ PODS:
   - Realm/Headers (10.7.6)
   - RealmSwift (10.7.6):
     - Realm (= 10.7.6)
+  - ADMobGenAdapter (1.5.2):
+    - ADMobGenFoundation
+  - ADMobGenFoundation (0.7.2)
+  - ADMobGenGDT (4.10.0):
+    - ADMobGenAdapter
+    - ADMobGenFoundation
+    - GDTMobSDK (= 4.10.2)
+  - GDTMobSDK (4.10.2):
+    - GDTMobSDK/GDTMobSDK (= 4.10.2)
+  - GDTMobSDK/GDTMobSDK (4.10.2)
+  - YogaKit (1.2.0)
+  - libpng (1.4.9)
+  - libpng (1.0.8)
+  - GethDevelop (1.8.17)
 
 DEPENDENCIES:
   - RealmSwift (= 10.7.6)
+  - ADMobGenGDT (from `../`)
 
 SPEC REPOS:
   trunk:
     - Realm
     - RealmSwift
+  https://github.com/cocoapods/specs.git:
+    - ADMobGenAdapter
+    - ADMobGenFoundation
+    - GDTMobSDK
 
 SPEC CHECKSUMS:
   Realm: ed860452717c8db8f4bf832b6807f7f2ce708839
   RealmSwift: e31c4ddbcc42ac879313d656b86f9ca539f6f4f4
+  ADMobGenAdapter: 5ab3531d5659c96812e6da545c1ec160b9991a2e
+  ADMobGenFoundation: de6e4f7b09df256a347878d0f0e0438c1feac94e
+  ADMobGenGDT: 77d18f682136e9e90fc9e5dfb0fc57637d5441d7
+  GDTMobSDK: 6fde44a4f80c36051d5d879df8bb280034c31431
 
 PODFILE CHECKSUM: f212cc9a572903ecd384ba7a18ba8c8726aaacb8
 
