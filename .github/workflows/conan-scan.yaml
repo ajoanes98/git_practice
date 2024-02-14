@@ -13,8 +13,8 @@ jobs:
       uses: sonatype-nexus-community/iq-github-action@master
       with:
         serverUrl: https://repo.ajoanes.ngrok.io
-        username: ${{ secrets.IQ_USER }} 
-        password: ${{ secrets.IQ_PASSWORD }} 
+        username: admin
+        password: iqAj610298!
         applicationId: sample-c++
         stage: Build
         target: /Users/anthonyjoanes/Downloads/conanfile.txt
