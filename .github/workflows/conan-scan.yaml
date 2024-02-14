@@ -1,6 +1,6 @@
 name: Conan CI with Nexus IQ
 
-on: [push]
+on: workflow_dispatch
 
 jobs:
   build:
@@ -18,3 +18,4 @@ jobs:
         applicationId: conan-github
         stage: Build
         target: conan
+#comment
