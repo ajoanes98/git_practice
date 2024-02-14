@@ -12,7 +12,7 @@ jobs:
     - name: Nexus IQ Policy Evaluation
       uses: sonatype-nexus-community/iq-github-action@master
       with:
-        serverUrl: https://repo.ajoanes.ngrok.io
+        serverUrl: https://iq.ajoanes.ngrok.io
         username: admin
         password: iqAj610298!
         applicationId: sample-c++
