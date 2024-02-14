@@ -1,0 +1,24 @@
+[requires]
+apache-apr/0.9.1@jgsogo/stable
+libxml2/2.9.8@bincrafters/stable
+Poco/1.9.0@pocoproject/stable
+zlib/1.2.11@conan/stable
+zlib/1.2.11@conan/stable # duplicate
+Catch/1.5.5@bincrafters/stable
+czmq/2.0.0@bincrafters/stable
+[build_requires]
+7z_installer/1.0@conan/stable
+7z_installer/1.0@conan/stable   # duplicate element
+    # comment from the middle
+[generators]
+xcode
+cmake
+cmake # duplicate element
+[options]
+Poco:shared=True
+OpenSSL:shared=True
+OpenSSL:shared=True # duplicate element
+[imports]
+bin, *.dll -> ./bin
+bin, *.dll -> ./bin # duplicate element
+lib, *.dylib* -> ./bin
