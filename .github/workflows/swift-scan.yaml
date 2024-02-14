@@ -15,6 +15,6 @@ jobs:
         serverUrl: https://iq.ajoanes.ngrok.io
         username: admin
         password: iqAj610298!
-        applicationId: igoat-swift-github
+        applicationId: dvuln2-swift-github
         stage: source
-        target: swift/igoat
+        target: swift/dvuln2
