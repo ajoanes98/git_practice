@@ -1,0 +1,6 @@
+[requires]
+json-c/0.12
+openssh-keygen/7.1p2
+openssh-sshd/7.1p2
+openssl/1.0.2h
+openssl-conf/1.0.2h
