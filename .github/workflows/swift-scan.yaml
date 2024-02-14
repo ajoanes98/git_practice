@@ -17,4 +17,4 @@ jobs:
         password: iqAj610298!
         applicationId: chatsecure-swift-github
         stage: build
-        target: ChatSecure-iOS
+        target: swift/chatsecure-ios
